@@ -1,0 +1,28 @@
+{
+  "name": "api-yellow-pages",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "dev": "nodemon",
+    "lint": "eslint --ext .js,.html -f ./node_modules/eslint-friendly-formatter . --fix",
+    "prepush": "npm run lint",
+    "start": "node server.js"
+  },
+  "author": "Daniel Cintra",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^6.8.0",
+    "eslint-config-airbnb-base": "^14.0.0",
+    "eslint-plugin-import": "^2.20.1",
+    "husky": "^4.2.3",
+    "nodemon": "^2.0.2"
+  },
+  "dependencies": {
+    "dotenv": "^16.0.1",
+    "express": "^4.17.3",
+    "express-promise-router": "^4.1.1",
+    "pg": "^8.7.3",
+    "uuidv4": "^6.2.13"
+  }
+}
