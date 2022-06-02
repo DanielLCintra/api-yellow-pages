@@ -1,4 +1,4 @@
-# Calendar App
+# Yellow Pages API
 
 Hello, welcome to the yellow pages api project.
 
@@ -7,7 +7,7 @@ Hello, welcome to the yellow pages api project.
 To use a CRUD of contacts.
 
 - Create POST /contacts
-- Read GET /contacTs
+- Read GET /contacts
 - Update PUT /contacts/:id
 - Delete DELETE /contacts/:id
 
@@ -39,5 +39,3 @@ Librarires: [
     'PostgreSQL'
    ]
 ```
-
-.
