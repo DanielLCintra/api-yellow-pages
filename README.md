@@ -16,6 +16,9 @@ Inside of the project, you can find a Insomnia file with the complete documentat
 ## Live Demonstration
 https://yellow-pages-api.herokuapp.com/
 
+## API Documentation
+[Access](https://documenter.getpostman.com/view/11587392/Uz5GobPM)
+
 ## Project Installation
 
 ```
